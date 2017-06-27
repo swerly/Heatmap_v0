@@ -1,0 +1,4 @@
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade
+        android:duration="500"/>
+</transitionSet>

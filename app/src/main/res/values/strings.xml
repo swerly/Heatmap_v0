@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MyWifiHeatmap</string>
+    <string name="permission_denied_title">Permission Missing</string>
+    <string name="quit">Exit App</string>
+    <string name="continue_txt">Continue</string>
+    <string name="settings">Settings</string>
+    <string name="fine_location_denied">The Location permission is missing.\n\n
+        This permission is used to easily find your location on the map, it does not need to be turned on.\n\n
+        To grant this permission click on Settings, then Permissions and turn the Location permission on.
+        Then click back twice to return to the app</string>
+
+    <string name="storage_location_denied">The Storage permission is missing.\n\n
+        This permission is used to save images to your SD Card, it does not need to be turned on.\n\n
+        To grant this permission click on Settings, then Permissions and turn the Storage permission on.
+        Then click back twice to return to the app</string>
+
+    <string name="defualt_text">This is the default text</string>
+    <string name="hit_next">Hit the next button to continue to next steps.</string>
+    <string name="do_not_show">Show helpful tips.</string>
+
+    <!-- map info screen strings -->
+    <string name="map_instructions_header">Selecting a Location</string>
+    <string name="map_instructions_body">
+        Search a location or use your own to locate the building of interest.\n\n
+        Zoom, pan, and rotate to get building as large as possible while still keeping the
+        boundaries on screen.
+    </string>
+
+    <!-- zoom strings -->
+    <string name="zoom_dialog_title">Adjust zoom?</string>
+    <string name="zoom_dialog_body">Try to get the building of interest as large as possible within
+        the screen bounds.</string>
+    <string name="zoom_dialog_confirm">Zoom</string>
+    <string name="zoom_dialog_deny">Continue</string>
+    <!-- zoom info strings -->
+    <string name="zoom_instructions_header">Zooming on a Location</string>
+    <string name="zoom_instructions_body">
+        This app works best when the building of interest is as large as possible on your device screen.\n\n
+        Zoom and pan to adjust your building as large as possible within the screen bounds.
+    </string>
+
+    <!-- boundry info screen strings -->
+    <!-- I didn't know how to spell boundary when I created these values and I'm way too lazy to change everything -->
+    <string name="boundry_instructions_header">Creating a Boundary</string>
+    <string name="boundry_instructions_body">
+        Place and drag your finger to outline the building of interest.\n\n
+        Use the undo button in the top right to undo the latest drawn line.
+    </string>
+
+    <!-- heatmap info screen strings -->
+    <string name="heatmap_instructions_header">Creating a Heatmap</string>
+    <string name="heatmap_instructions_body">
+        As you walk through the building of interest, hold your finger down on the device screen in
+        your approximate location.\n\n
+        Colors will be drawn underneath your finger showing the current wifi strength.\n
+        Red depicts a strong signal, while blue depicts a weak signal.
+    </string>
+
+</resources>
